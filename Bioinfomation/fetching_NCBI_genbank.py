@@ -1,7 +1,7 @@
 from Bio import Entrez, SeqIO
 
 # 1. Tell NCBI who you are (required by NCBI's server rules)
-Entrez.email = "liamjflurry@gmail.com"
+Entrez.email = "example@example.com"
 
 sequence_id = "NC_000021"
 output_filename = "human_chr21.fasta"
