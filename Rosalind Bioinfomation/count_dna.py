@@ -1,0 +1,6 @@
+dna_sequence = input("Enter a DNA sequence: ")
+a_count = dna_sequence.count("A")
+t_count = dna_sequence.count("T")
+c_count = dna_sequence.count("C")
+g_count = dna_sequence.count("G")
+print(f"A: {a_count, c_count, g_count, t_count}")
